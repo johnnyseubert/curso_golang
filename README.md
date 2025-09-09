@@ -25,3 +25,20 @@ func main(){
    auxiliar.EscreverPublico() // <-vai funcionar pois está publico
 }
 ```
+
+---
+
+### Instalar pacotes externos
+
+- Para instalar um pacote externo basta rodar o comando `go get` passando o nome do pacote que deseja instalar.
+
+Exemplo:
+```bash
+go get github.com/badoux/checkmail
+```
+
+- O arquivo `go.sum` é equivalente a um `package-lock.json`
+
+- Caso queira atualizar as dependencias no `go.mod` para remover oq nao está sendo usado só rodar o comando `go mod tidy`
+
+---
