@@ -39,7 +39,7 @@ func main() {
 
 	// Removendo um elemento no slice (removendo o elemento do índice 2)
 	slice = append(slice[:2], slice[3:]...)
-	fmt.Println("SLICE", slice)
+	fmt.Println("SLICE REMOVIDO", slice)
 
 	fmt.Println("")
 
