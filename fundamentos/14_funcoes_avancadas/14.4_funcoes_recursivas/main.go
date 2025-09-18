@@ -19,7 +19,7 @@ func fibonacci(posicao uint) uint {
 }
 
 func main() {
-	posicao := uint(5)
+	posicao := uint(40)
 	now := time.Now()
 
 	for i := range posicao {
