@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"testes/enderecos"
-)
-
 // go test --cover
 // go test ./...
 // go tool cover --html=cobertura.txt
@@ -16,7 +11,4 @@ import (
 */
 
 func main() {
-	result := enderecos.TipoDeEndereco("Avenida Paulista")
-
-	fmt.Print(result)
 }
